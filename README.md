@@ -184,3 +184,9 @@ AKGUN-CHATBOX/
 Herhangi bir sorun veya katkıda bulunmak isterseniz lütfen iletişime geçmekten çekinmeyin!
 
 Teşekkürler ve iyi çalışmalar!
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
