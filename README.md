@@ -183,10 +183,11 @@ Local-Chatbot/
 
 # 📌 Geliştirme İpuçları
 
-*Flask ve Streamlit Ayrımı: Flask API flask_app içinde, Streamlit kodu streamlit_app içinde yer alır. Bu şekilde backend ve frontend mantığı ayrışır.
-*Ollama Model Seçimi: config.py içinde MODEL_NAME gibi bir değişken tanımlayarak farklı modelleri kolayca deneyebilirsiniz.
-*Hata Yönetimi: Hem API tarafında hem de Streamlit arayüzünde hata durumlarını yakalamak ve kullanıcıya anlamlı mesajlar döndürmek projenin kullanılabilirliğini artırır.
-
+<ul>
+  <li>Flask ve Streamlit Ayrımı: Flask API <code>flask_app</code> içinde, Streamlit kodu <code>streamlit_app</code> içinde yer alır. Bu şekilde backend ve frontend mantığı ayrışır.</li>
+  <li>Ollama Model Seçimi: <code>config.py</code> içinde <code>MODEL_NAME</code> gibi bir değişken tanımlayarak farklı modelleri kolayca deneyebilirsiniz.</li>
+  <li>Hata Yönetimi: Hem API tarafında hem de Streamlit arayüzünde hata durumlarını yakalamak ve kullanıcıya anlamlı mesajlar döndürmek projenin kullanılabilirliğini artırır.</li>
+</ul>
 
 ---
 
