@@ -6,16 +6,16 @@
   🔥Local'de çalışan Chatbot🔥
 </h1>
 
+---
 
+    Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek R1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
 ---
 
 # 📷 Local Chat 
-![DemoGorsel](assets/images/demo.png)
-
+<img src="assets/images/demo.png" alt="DemoGorsel" width="300">
 
 ---
 
-Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek R1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
 
 ## Özellikler
 
