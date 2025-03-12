@@ -1,10 +1,17 @@
 <h1 align="center">
-  <img src="assets/images/flask.png" width="80">  
-  <img src="assets/images/ollama.png" width="80">  
-  <img src="dassets/images/streamlit.jpg" width="80">  
+  <img src="assets/icon/flask.png" width="80">  
+  <img src="assets/icon/ollama.png" width="80">  
+  <img src="dassets/icon/streamlit.png" width="80">  
   <br>
   🔥Local'de çalışan Chatbot🔥
 </h1>
+
+
+---
+
+# 📷 API Test Görüntüsü
+![DemoGorsel](assets/images/demo.png)
+
 
 ---
 
@@ -137,8 +144,6 @@ Not: Hem Flask API hem de Streamlit uygulaması aynı anda çalışmalı; bu ned
 
 ---
 
-# 📷 API Test Görüntüsü
-![Postman Testi](docs/images/screen_shot2.png)
 
 ---
 
