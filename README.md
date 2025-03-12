@@ -91,11 +91,11 @@ Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu göster
 ## 3️⃣ Projeyi Klonlayın ve Çalıştırın
 1. **Projeyi Klonlayın**
     ```bash
-    git clone https://github.com/aliakkayamain/Akgun-Chatbox.git
+    git clone https://github.com/aliakkayamain/local-chatbot.git
     ```
     Şimdi projenin içine girin:
     ```bash
-    cd Akgun-Chatbot
+    cd local-chatbot
     ```
 
 2. **Sanal Ortam Oluşturun ve Aktif Edin**
