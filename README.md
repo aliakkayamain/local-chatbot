@@ -2,20 +2,19 @@
   <img src="assets/icon/flask.png" width="80">  
   <img src="assets/icon/streamlit.png" width="80">  
   <img src="assets/icon/ollama.png" width="80">  
-  
   <br>
   🔥Local'de çalışan Chatbot🔥
 </h1>
 
-[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-green">
+  </a>
+</p>
+
 ---
 
 Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek-r1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
----
-
-# 📷 Local Chat 
-<img src="assets/images/demo.png" alt="DemoGorsel" width="750">
-
 ---
 
 
