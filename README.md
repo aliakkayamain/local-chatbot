@@ -13,7 +13,7 @@ Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek,
 ---
 
 # 📷 Local Chat 
-<img src="assets/images/demo.png" alt="DemoGorsel" width="600">
+<img src="assets/images/demo.png" alt="DemoGorsel" width="750">
 
 ---
 
