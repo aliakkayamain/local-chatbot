@@ -1,15 +1,12 @@
 <h1 align="center">
-  <img src="assets/icon/flask.png" width="80">  
-  <img src="assets/icon/streamlit.png" width="80">  
-  <img src="assets/icon/ollama.png" width="80">  
+  <img src="assets/images/header.png">  
+  
   <br>
   🔥Local'de çalışan Chatbot🔥
 </h1>
 
 <p align="center">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
-  </a>
+  
   <a href="https://github.com/ollama/ollama">
     <img src="https://img.shields.io/badge/GitHub-Ollama-blue?logo=github" alt="Ollama GitHub">
   </a>
@@ -19,6 +16,10 @@
   <a href="https://github.com/streamlit">
     <img src="https://img.shields.io/badge/GitHub-Streamlit-blue?logo=github" alt="Streamlit GitHub">
   </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
+  </a>
+
 </p>
 
 ---
