@@ -8,7 +8,7 @@
 
 ---
 
-    Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek R1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
+Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek R1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
 ---
 
 # 📷 Local Chat 
@@ -116,6 +116,7 @@ Bu, modelin başarıyla indirildiğini ve kullanılmaya hazır olduğunu göster
     ```
 
 4. **Flask API’yi Başlatın**
+
     📌 Windows için
     ```bash
     set FLASK_APP=flask_app
@@ -139,11 +140,6 @@ Not: Hem Flask API hem de Streamlit uygulaması aynı anda çalışmalı; bu ned
 	•	Terminal 1: flask run
 	•	Terminal 2: streamlit run app.py
 ---
-
-
-
----
-
 
 ---
 
