@@ -15,12 +15,16 @@
 ---
 
 Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek-r1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
----
-# 📷 Local Chat 
-<img src="assets/images/demo.png" alt="DemoGorsel" width="750">
 
 ---
 
+<h2 align="center">📷 Local Chat</h2>
+
+<p align="center">
+  <img src="assets/images/demo.png" alt="DemoGorsel" width="750">
+</p>
+
+---
 
 ## Özellikler
 
@@ -46,7 +50,7 @@ Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek,
 
 # 🚀 Kurulum & Çalıştırma
 
-## 1️⃣ Ollama ve DeepSeek R1 Modelini Kurun
+## 1️⃣ Ollama ve DeepSeek-r1 Modelini Kurun
 LLaMa 3.1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeniz gerekmektedir.
 
 📌 macOS (Homebrew ile)
