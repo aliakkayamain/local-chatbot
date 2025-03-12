@@ -1,7 +1,8 @@
 <h1 align="center">
   <img src="assets/icon/flask.png" width="80">  
-  <img src="assets/icon/ollama.png" width="80">  
   <img src="assets/icon/streamlit.png" width="80">  
+  <img src="assets/icon/ollama.png" width="80">  
+  
   <br>
   🔥Local'de çalışan Chatbot🔥
 </h1>
@@ -137,32 +138,45 @@ Flask API çalışmaya devam ederken, ayrı bir terminal penceresi açın ve yin
 Bu komut, http://localhost:8501 adresinde Streamlit arayüzünü başlatacaktır. Tarayıcınız otomatik olarak açılmazsa, adresi elle girebilirsiniz.
 
 Not: Hem Flask API hem de Streamlit uygulaması aynı anda çalışmalı; bu nedenle iki ayrı terminal veya süreç kullanmanız gerekir.
-	•	Terminal 1: flask run
-	•	Terminal 2: streamlit run app.py
----
+•	Terminal 1: flask run
+•	Terminal 2: streamlit run app.py
 
 ---
 
 # 📂 Proje Yapısı
 ```
-AKGUN-CHATBOX/
+Local-Chatbot/
 │
-├── __pycache__/         # Python tarafından derlenen bytecode dosyaları
+├── assets/               # Projede kullanılan görseller, ikonlar vb.
+│   ├── icon/             # Farklı ikon dosyalarının saklandığı klasör
+│   │   ├── flask.png
+│   │   ├── ollama.png
+│   │   └── streamlit.png
+│   └── images/           # Ekran görüntüleri veya diğer resimler
+│       └── demo.png
 │
-├── docs/                # Dökümanlar ve ekran görüntüleri için ayrılmış klasör
-│   └── images/          # Proje ile ilgili ekran görüntüleri
+├── flask_app/            # Flask uygulaması (backend) ile ilgili kodlar
+│   ├── __pycache__/      # Python tarafından derlenen bytecode dosyaları (otomatik)
+│   ├── __init__.py       # Flask uygulamasını başlatan kod (create_app gibi)
+│   ├── config.py         # Konfigürasyon ayarları (örn. DEBUG, MODEL_NAME)
+│   └── routes/           # API endpoint'lerini içeren klasör
+│       ├── __pycache__/ 
+│       ├── __init__.py   # (boş olabilir) routes paketini tanımlar
+│       ├── chat.py       # "/chat" endpoint'i
+│       └── index.py      # "/" (root) endpoint'i
 │
-├── routes/              # API endpoint'lerini içeren klasör
-│   ├── __pycache__/     # Python tarafından derlenen bytecode dosyaları
-│   ├── chat.py          # "/chat" endpoint'ini tanımlayan kodlar
-│   └── index.py         # "/" (root) endpoint'ini tanımlayan kodlar
+├── streamlit_app/        # Streamlit arayüz (frontend) kodları
+│   ├── __pycache__/
+│   ├── __init__.py       # (boş olabilir) streamlit_app paketini tanımlar
+│   └── ui.py             # Streamlit arayüzünün ana kodları
 │
-├── .gitignore           # Git'e dahil edilmemesi gereken dosyaları belirleyen ayarlar
-├── app.py               # Flask uygulamasının ana giriş noktası ve blueprint kayıtları
-├── config.py            # Konfigürasyon ayarları (örn. DEBUG, PORT vb.)
-├── README.md            # Proje dokümantasyonu
-├── requirements.txt     # Proje bağımlılıklarının listesi (Flask vb.)
-└── venv/                # Python sanal ortam (virtual environment) klasörü
+├── venv/                 # Python sanal ortam (virtual environment) klasörü
+│
+├── .gitignore            # Git'e dahil edilmemesi gereken dosyaları belirleyen ayarlar
+├── LICENSE               # Proje lisans dosyası (MIT vb.)
+├── README.md             # Proje dokümantasyonu
+├── requirements.txt      # Proje bağımlılıklarının listesi (Flask, Streamlit, vs.)
+└── app.py                # Flask uygulamasının giriş noktası, create_app() veya benzeri
 ```
 
 ---
