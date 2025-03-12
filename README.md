@@ -168,18 +168,18 @@ AKGUN-CHATBOX/
 
 # 📌 Geliştirme İpuçları
 
-	•	Flask ve Streamlit Ayrımı: Flask API flask_app içinde, Streamlit kodu streamlit_app içinde yer alır. Bu şekilde backend ve frontend mantığı ayrışır.
-	•	Ollama Model Seçimi: config.py içinde MODEL_NAME gibi bir değişken tanımlayarak farklı modelleri kolayca deneyebilirsiniz.
-	•	Hata Yönetimi: Hem API tarafında hem de Streamlit arayüzünde hata durumlarını yakalamak ve kullanıcıya anlamlı mesajlar döndürmek projenin kullanılabilirliğini artırır.
+•	Flask ve Streamlit Ayrımı: Flask API flask_app içinde, Streamlit kodu streamlit_app içinde yer alır. Bu şekilde backend ve frontend mantığı ayrışır.
+•	Ollama Model Seçimi: config.py içinde MODEL_NAME gibi bir değişken tanımlayarak farklı modelleri kolayca deneyebilirsiniz.
+•	Hata Yönetimi: Hem API tarafında hem de Streamlit arayüzünde hata durumlarını yakalamak ve kullanıcıya anlamlı mesajlar döndürmek projenin kullanılabilirliğini artırır.
 
 
 ---
 
 ## 📬 İletişim  
 
-	•	Geliştirici: Ali Akkaya
-	•	E-posta: aliakkayamain@gmail.com
-	•	GitHub: aliakkayamain
+•	Geliştirici: Ali Akkaya
+•	E-posta: aliakkayamain@gmail.com
+•	GitHub: aliakkayamain
 
 Herhangi bir sorun veya katkıda bulunmak isterseniz lütfen iletişime geçmekten çekinmeyin!
 
