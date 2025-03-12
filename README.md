@@ -12,7 +12,7 @@
 ---
 
 # 📷 Local Chat 
-<img src="assets/images/demo.png" alt="DemoGorsel" width="300">
+<img src="assets/images/demo.png" alt="DemoGorsel" width="600">
 
 ---
 
