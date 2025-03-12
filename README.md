@@ -9,7 +9,7 @@
 
 ---
 
-Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek R1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
+Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek-r1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
 ---
 
 # 📷 Local Chat 
@@ -71,7 +71,7 @@ Eğer şu şekilde bir çıktı alıyorsanız, Ollama başarıyla kurulmuştur:
 ollama 0.1.20
 ```
 
-## 2️⃣ LLaMa 3.1 Modelini İndirin
+## 2️⃣ deepseek-r1 Modelini İndirin
 Ollama başarıyla kurulduktan sonra, LLaMa 3.1 (8B) modelini bilgisayarınıza indirmek için şu komutu çalıştırın:
 ```bash
 ollama pull deepseek-r1:8b
@@ -183,18 +183,18 @@ Local-Chatbot/
 
 # 📌 Geliştirme İpuçları
 
-•	Flask ve Streamlit Ayrımı: Flask API flask_app içinde, Streamlit kodu streamlit_app içinde yer alır. Bu şekilde backend ve frontend mantığı ayrışır.
-•	Ollama Model Seçimi: config.py içinde MODEL_NAME gibi bir değişken tanımlayarak farklı modelleri kolayca deneyebilirsiniz.
-•	Hata Yönetimi: Hem API tarafında hem de Streamlit arayüzünde hata durumlarını yakalamak ve kullanıcıya anlamlı mesajlar döndürmek projenin kullanılabilirliğini artırır.
+•Flask ve Streamlit Ayrımı: Flask API flask_app içinde, Streamlit kodu streamlit_app içinde yer alır. Bu şekilde backend ve frontend mantığı ayrışır.
+•Ollama Model Seçimi: config.py içinde MODEL_NAME gibi bir değişken tanımlayarak farklı modelleri kolayca deneyebilirsiniz.
+•Hata Yönetimi: Hem API tarafında hem de Streamlit arayüzünde hata durumlarını yakalamak ve kullanıcıya anlamlı mesajlar döndürmek projenin kullanılabilirliğini artırır.
 
 
 ---
 
 ## 📬 İletişim  
 
-•	Geliştirici: Ali Akkaya
-•	E-posta: aliakkayamain@gmail.com
-•	GitHub: aliakkayamain
+•Geliştirici: Ali Akkaya
+•E-posta: aliakkayamain@gmail.com
+•GitHub: aliakkayamain
 
 Herhangi bir sorun veya katkıda bulunmak isterseniz lütfen iletişime geçmekten çekinmeyin!
 
