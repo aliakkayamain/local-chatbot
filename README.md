@@ -1,6 +1,5 @@
 <h1 align="center">
-  <img src="assets/images/header.png" wight="20">  
-  
+  <img src="assets/images/header.png" width="75%">
   <br>
   🔥Local'de çalışan Chatbot🔥
 </h1>
