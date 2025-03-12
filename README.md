@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="assets/icon/flask.png" width="80">  
   <img src="assets/icon/ollama.png" width="80">  
-  <img src="dassets/icon/streamlit.png" width="80">  
+  <img src="assets/icon/streamlit.png" width="80">  
   <br>
   🔥Local'de çalışan Chatbot🔥
 </h1>
@@ -9,7 +9,7 @@
 
 ---
 
-# 📷 API Test Görüntüsü
+# 📷 Local Chat 
 ![DemoGorsel](assets/images/demo.png)
 
 
