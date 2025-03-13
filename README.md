@@ -160,6 +160,7 @@ Not: Hem Flask API hem de Streamlit uygulaması aynı anda çalışmalı; bu ned
   <li>Terminal 1: flask run<li>
   <li>Terminal 2: streamlit run app.py<li>
 <ul>
+
 ---
 
 # 📂 Proje Yapısı
