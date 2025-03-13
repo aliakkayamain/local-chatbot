@@ -60,7 +60,7 @@ Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek,
 # 🚀 Kurulum & Çalıştırma
 
 ## 1️⃣ Ollama ve DeepSeek-r1 Modelini Kurun
-DeepSeek-R1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeniz gerekmektedir.
+deepseek-r1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeniz gerekmektedir.
 
 📌 macOS (Homebrew ile)
 ```bash
@@ -155,11 +155,8 @@ Flask API çalışmaya devam ederken, ayrı bir terminal penceresi açın ve yin
 Bu komut, http://localhost:8501 adresinde Streamlit arayüzünü başlatacaktır. Tarayıcınız otomatik olarak açılmazsa, adresi elle girebilirsiniz.
 
 Not: Hem Flask API hem de Streamlit uygulaması aynı anda çalışmalı; bu nedenle iki ayrı terminal veya süreç kullanmanız gerekir.
-
-<ul>
-  <li>Terminal 1: flask run</li>
-  <li>Terminal 2: streamlit run app.py</li>
-<ul>
+-	Terminal 1: flask run
+-	Terminal 2: streamlit run app.py
 
 ---
 
