@@ -23,7 +23,7 @@
 
 ---
 
-Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek-r1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
+Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek, Ollama üzerinden çalışan bir dil modeli (örneğin, DeepSeek-R1) ile etkileşimli bir sohbet deneyimi sunar. Hem API üzerinden Postman gibi araçlarla mesaj gönderebilir hem de Streamlit arayüzü ile kullanıcı dostu bir şekilde sohbet edebilirsiniz.
 
 ---
 
@@ -52,7 +52,7 @@ Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek,
 3.	**DeepSeek R1 (8B)** model dosyası (lokalde indirili olmalı)
 4.	**Flask, Streamlit, Requests vb.** Python kütüphaneleri (details: requirements.txt)
 
-> LLaMa 3.1 modeli, Ollama platformu üzerinden indirilebilir ve lokal makinede çalıştırılabilir. Aşağıdaki adımları takip ederek Ollama ve LLaMa 3.1 modelini yükleyip test edebilirsiniz.
+> DeepSeek-R1 modeli, Ollama platformu üzerinden indirilebilir ve lokal makinede çalıştırılabilir. Aşağıdaki adımları takip ederek Ollama ve LLaMa 3.1 modelini yükleyip test edebilirsiniz.
 > Ollama ve DeepSeek R1 (8B) model kurulum adımları için [ollama resmi dokümantasyonuna](https://ollama.com/library/deepseek-r1) göz atabilirsiniz.
 
 ---
@@ -60,7 +60,7 @@ Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek,
 # 🚀 Kurulum & Çalıştırma
 
 ## 1️⃣ Ollama ve DeepSeek-r1 Modelini Kurun
-LLaMa 3.1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeniz gerekmektedir.
+DeepSeek-R1 modelini kullanabilmek için önce **Ollama CLI** aracını yüklemeniz gerekmektedir.
 
 📌 macOS (Homebrew ile)
 ```bash
@@ -155,9 +155,11 @@ Flask API çalışmaya devam ederken, ayrı bir terminal penceresi açın ve yin
 Bu komut, http://localhost:8501 adresinde Streamlit arayüzünü başlatacaktır. Tarayıcınız otomatik olarak açılmazsa, adresi elle girebilirsiniz.
 
 Not: Hem Flask API hem de Streamlit uygulaması aynı anda çalışmalı; bu nedenle iki ayrı terminal veya süreç kullanmanız gerekir.
-•	Terminal 1: flask run
-•	Terminal 2: streamlit run app.py
 
+<ul>
+  <li>Terminal 1: flask run<li>
+  <li>Terminal 2: streamlit run app.py<li>
+<ul>
 ---
 
 # 📂 Proje Yapısı
