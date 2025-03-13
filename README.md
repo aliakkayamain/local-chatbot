@@ -157,8 +157,8 @@ Bu komut, http://localhost:8501 adresinde Streamlit arayüzünü başlatacaktır
 Not: Hem Flask API hem de Streamlit uygulaması aynı anda çalışmalı; bu nedenle iki ayrı terminal veya süreç kullanmanız gerekir.
 
 <ul>
-  <li>Terminal 1: flask run<li>
-  <li>Terminal 2: streamlit run app.py<li>
+  <li>Terminal 1: flask run</li>
+  <li>Terminal 2: streamlit run app.py</li>
 <ul>
 
 ---
