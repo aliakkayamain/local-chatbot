@@ -30,8 +30,8 @@ Bu proje, Flask tabanlı bir REST API ile Streamlit arayüzünü birleştirerek,
 <h2 align="center">📷 Local Chat</h2>
 
 <p align="center">
-  <img src="assets/images/demo.png" alt="DemoGorsel" width="48%">
-  <img src="https://rasa.com/assets/img/sara/sara-open-source-2.0.png" alt="Rasa Chatbot" width="48%">
+  <img src="assets/images/demo.png" alt="DemoGorsel" width="76%">
+  <img src="https://rasa.com/assets/img/sara/sara-open-source-2.0.png" alt="Rasa Chatbot" width="24%">
 </p>
 ---
 
